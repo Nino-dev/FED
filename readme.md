@@ -60,6 +60,10 @@
 
 -uitwerken voor de 1e werkgroep - eind van de eerste week-
 
+**Breakdown schets:**
+
+<img src="images/breakdown.png" width="375px" alt="Home (one pager)">
+
 
 
 ## Intake (week 1)
