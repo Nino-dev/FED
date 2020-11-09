@@ -77,4 +77,4 @@
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/image-2.png" width="375px" alt="Search pagina">
+<img src="../images/image-2.png" width="375px" alt="Search pagina">
