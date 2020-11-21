@@ -1,19 +1,120 @@
 <!doctype html>
 <html lang="nl">
-	
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
+	<meta name="author" content="Nino van der Vinden">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Howdy</title>
-	
+	<title>#teamtrees</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
 	<link href="styles/style.css" rel="stylesheet">
 </head>
-
 <body>
-	<h1>Howdy</h1>
+	<header>
+		<section class="top-section font-bold">
+			<p>Check out our <a href="#" class="font-black">Planting Locations</a> to learn more about the 7.1 million trees we've planted so far!</p>
+		</section>
+		<nav class="logo-nav">
+			<img src="images/logo.png" alt="#teamtrees logo">
+			<div class="hamburger">
+				<img src="images/hamburger.png" alt="Hamburger menu">
+			</div>
+				<!-- Hidden by default -->
+				<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Join #teamtrees</a></li>
+						<li><a href="#">Leaderboard</a></li>
+						<li><a href="#">Social</a></li>
+						<li><a href="#">Planting projects</a></li>
+						<li><a href="#">Store</a></li>
+				</ul>
+		</nav>
+		<article class="intro">
+			<h1 class="font-black">YEAR TWO!</h1>
+			<p class="font-medium">One year ago we formed a team, took over the internet and scored a win for the planet. Plant with us and track our progress!</p>
+		</article>
+		<div class="video">
+			<img src="images/astronaut.png" alt="Astronaut holding sign: Year two!">
+			<img src="images/video-thumbnail.jpg" alt="Mr. Beast">
+			<img src="images/play-button.png" alt="Play button">
+			<img src="images/video-banner-2.png" alt="Label: Year 1 Planting Update">
+		</div>
+		<h2 class="font-black trees-planted">22,411,854</h2>
+		<div class="container">
+			<img src="images/header.png" class="cover" alt="Landscape parallax scroll">
+		</div>
+
+	</header>
+
+
+	<main>
+		<section class="donate">
+			<h3>Join #teamtrees</h3>
+			<p>$1 plants a tree</p>
+			<form class="">
+				<label class="">5 trees
+				  <input type="radio" checked="checked" name="radio">
+				</label>
+				<label class="">20 trees
+				  <input type="radio" name="radio">
+				</label>
+				<label class="">50 trees
+				  <input type="radio" name="radio">
+				</label>
+				<label class="">100 trees
+				  <input type="radio" name="radio">
+				</label>
+				<input type="text" placeholder="Other Amount">
+				<a href="#">Next</a>
+			</form>
+		</section>
+		<section class="leaderboard">
+			<h2>Leaderboard</h2>
+			<div class="search-filter">
+				<a href="#">Search <img src="" alt="Vergrootglas"></a>
+				<div class="filter">
+					<label class="">Most recent
+					  <input type="radio" checked="checked" name="radio">
+					</label>
+					<label class="">Most trees
+					  <input type="radio" name="radio">
+					</label>
+				</div>
+			</div>
+			<article class="donation">
+				<img src="" alt="avatar">
+				<h4>John Doe</h4>
+				<q>For a better world x</q>
+				<p>11 trees</p>
+				<time>15-11-2020 14:31:56</time>
+			</article>
+			<a href="#">Add Your Tree</a>
+		</section>
+		<!-- <img src="images/blue-curve.png" alt="Divider for styling purposes"> -->
+		<section class="projects">
+			<h2>Planting projects</h2>
+			<p>Wondering where these trees are being planted? Check out the locations for the first trees below.</p>
+			<img src="images/rocket.png" alt="Rocket">
+			<div class="map">
+				<!-- Needs a bg image, changes with JS, click through map -->
+			</div>
+			<div class="controls">
+				<div class="control">
+					<img src="images/" alt="Left arrow">
+				</div>
+				<div class="control">
+					<img src="images/" alt="Right arrow">
+				</div>
+			</div>
+			<section class="North America">
+				<article class="project">
+
+				</article>
+			</section>
+		</section>
+	</main>
+
 	<script src="scripts/script.js"></script>
 </body>
-	
+
 </html>

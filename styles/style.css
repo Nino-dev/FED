@@ -1,5 +1,178 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;  
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+/* Text */
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-black {
+  font-weight: 900;
+}
+
+.trees-planted {
+  font-size: 4em;
+  text-align: center;
+}
+
+/* Navigation */
+.logo-nav {
+  text-align: center;
+}
+
+.logo-nav>img {
+  margin-top: 1.5em;
+  width: 126.66px;
+}
+
+.hamburger {
+    position: absolute;
+    top: 5.625em;
+    right: 1em;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.fix-burger {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  border: 1px solid #e2e8f0
+}
+
+.hamburger>img {
+  width: 1em;
+  height: 0.75em;
+}
+
+/* Sections */
+
+header {
+  background-image: url("../images/stars.png"), linear-gradient(#113259 10%, #b4dbe1 80%);
+  color: white;
+}
+
+nav ul {
+  display: none;
+}
+
+.top-section {
+  background: #b4dbe1;
+  color: #113259;
+  width: 100%;
+  height: 5.286em;
+  font-size: 0.8750em;
+  display: flex;
+  align-items: center;
+  padding: 1em 0.5em;
+}
+
+.top-section p {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.top-section>p>a {
+  color: #113259;
+}
+
+.intro {
+  margin-top: 48px;
+  text-align: center;
+}
+
+.intro>p {
+  margin-top: 16px;
+  padding: 0 16px;
+}
+
+.video {
+  width: 90%;
+  height: 160px;
+  margin: 35px 0 47px 0;
+  position: relative;
+  transform: rotate(-6deg);
+}
+
+.video>img:first-of-type {
+  position: absolute;
+  width: 65px;
+  left: 15px;
+}
+
+.video>img:nth-of-type(2) {
+  position: absolute;
+  width: 260px;
+  left: 79px;
+}
+
+.video>img:nth-of-type(3) {
+  position: absolute;
+  width: 40px;
+  z-index: 999;
+  left: 189px;
+  top: 57px;
+}
+
+.video>img:nth-of-type(4) {
+  position: absolute;
+  width: 300px;
+  z-index: 999;
+  left: 58px;
+  top: 120px;
+}
+
+/* .parallax {
+  position: relative;
+  width: 100%;
+  height: 300px;
+} */
+
+
+.container {
+  width: 100vw;
+  height: 330px;
+  overflow: hidden;
+}
+.cover {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+main {
+
+}
