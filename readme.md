@@ -59,6 +59,7 @@
 ## Breakdownschets (week 1)
 
 -uitwerken voor de 1e werkgroep - eind van de eerste week-
+<img src="images/breakdown.png" width="375px" alt="Home (one pager)">
 
 
 
@@ -73,8 +74,8 @@
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/image-1.png" width="375px" alt="Home (one pager)">
+<img src="images/image-1.PNG" width="375px" alt="Home (one pager)">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/image-2.png" width="375px" alt="Search pagina">
+<img src="images/image-2.PNG" width="375px" alt="Search pagina">

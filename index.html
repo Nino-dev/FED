@@ -21,12 +21,12 @@
 			</div>
 				<!-- Hidden by default -->
 				<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Join #teamtrees</a></li>
-						<li><a href="#">Leaderboard</a></li>
-						<li><a href="#">Social</a></li>
-						<li><a href="#">Planting projects</a></li>
-						<li><a href="#">Store</a></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Join #teamtrees</a></li>
+					<li><a href="#">Leaderboard</a></li>
+					<li><a href="#">Social</a></li>
+					<li><a href="#">Planting projects</a></li>
+					<li><a href="#">Store</a></li>
 				</ul>
 		</nav>
 		<article class="intro">
@@ -43,52 +43,59 @@
 		<div class="container">
 			<img src="images/header.png" class="cover" alt="Landscape parallax scroll">
 		</div>
-
 	</header>
-
-
 	<main>
 		<section class="donate">
-			<h3>Join #teamtrees</h3>
-			<p>$1 plants a tree</p>
-			<form class="">
-				<label class="">5 trees
-				  <input type="radio" checked="checked" name="radio">
-				</label>
-				<label class="">20 trees
-				  <input type="radio" name="radio">
-				</label>
-				<label class="">50 trees
-				  <input type="radio" name="radio">
-				</label>
-				<label class="">100 trees
-				  <input type="radio" name="radio">
-				</label>
-				<input type="text" placeholder="Other Amount">
-				<a href="#">Next</a>
+			<h3 class="font-black">Join #teamtrees</h3>
+			<p class="font-bold">$1 plants a tree</p>
+			<form>
+        <input type='radio' name='radio' id="radio1"/>
+        <label for="radio1">5 trees</label>
+
+        <input type='radio' name='radio' id="radio2" checked="checked"/>
+        <label for="radio2">20 trees</label>
+
+        <input type='radio' name='radio' id="radio3"/>
+        <label for="radio3">50 trees</label>
+
+      	<input type='radio' name='radio' id="radio4"/>
+        <label for="radio4">100 trees</label>
+
+				<input type="text" id="inputText" placeholder="Other Amount">
+				<img src="images/twig-divider.png" alt="">
+				<a href="#" class="btn font-black">Next</a>
 			</form>
 		</section>
 		<section class="leaderboard">
-			<h2>Leaderboard</h2>
-			<div class="search-filter">
-				<a href="#">Search <img src="" alt="Vergrootglas"></a>
+			<h3 class="font-black">Leaderboard</h3>
+			<div class="search-filter font-bold">
+				<a href="search.html"><span>Search</span> <img src="images/search.png" alt="Vergrootglas"></a>
 				<div class="filter">
-					<label class="">Most recent
-					  <input type="radio" checked="checked" name="radio">
-					</label>
-					<label class="">Most trees
-					  <input type="radio" name="radio">
-					</label>
+					<input type='radio' name='filter' id="filter1" checked="true"/>
+	        <label for="filter1">Most recent</label>
+
+	        <input type='radio' name='filter' id="filter2"/>
+	        <label for="filter2">Most trees</label>
 				</div>
 			</div>
-			<article class="donation">
-				<img src="" alt="avatar">
-				<h4>John Doe</h4>
-				<q>For a better world x</q>
-				<p>11 trees</p>
-				<time>15-11-2020 14:31:56</time>
-			</article>
-			<a href="#">Add Your Tree</a>
+			<section class="donations">
+				<article class="donation">
+					<img src="images/icon-badge-acorn-2.svg" alt="Badge">
+					<h4 class="font-black">John Doe</h4>
+					<p>For a better world x</p>
+					<p class="amount-trees">11 trees</p>
+					<time>15-11-2020 14:31:56</time>
+				</article>
+				<article class="donation">
+					<img src="images/icon-badge-acorn-2.svg" alt="Badge">
+					<h4 class="font-black">John Doe</h4>
+					<p>For a better world x</p>
+					<p class="amount-trees">11 trees</p>
+					<time>15-11-2020 14:31:56</time>
+				</article>
+				<a href="#" class="btn font-black">Add Your Tree</a>
+			</section>
+
 		</section>
 		<!-- <img src="images/blue-curve.png" alt="Divider for styling purposes"> -->
 		<section class="projects">
