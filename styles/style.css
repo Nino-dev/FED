@@ -267,8 +267,13 @@ form>img {
   border-radius: 625em;
 }
 
+.lg {
+  width: 22.4375em;
+  margin-top: 3em;
+}
+
 .leaderboard {
-  padding-top: 30.5em;
+  padding: 30.5em 0 10em 0;
 }
 
 .leaderboard>h3 {
@@ -348,7 +353,7 @@ form>img {
   width: 22.4375em;
   display: flex;
   flex-direction: column;
-  padding-left: 80px;
+  padding: 0.5em 0 0.5em 5em;
   border-radius: .375em;
   color: #113259;
 }
@@ -363,7 +368,6 @@ form>img {
 
 .donation>h4 {
   font-size: 1.125em;
-  width: 60%;
   padding-top: 0.5em;
 }
 
@@ -371,5 +375,37 @@ form>img {
   background: #518360;
   color: #fff;
   width: fit-content;
-  padding: 5px;
+  padding: 0 1em;
+  border-radius: 625em;
+}
+
+time {
+  font-size: 0.75em;
+  margin: 0.5rem 0 0;
+}
+
+main>img:first-of-type {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.projects {
+  background: #113259;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6em 0;
+}
+
+.projects>h3 {
+  text-transform: uppercase;
+  font-size: 1.875em;
+  color: white;
+}
+
+.projects>p {
+  color: white;
+  text-align: center;
+  padding: 0 1em;
 }
