@@ -2,9 +2,9 @@
 **Auteur:** Nino van der Vinden
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. https://stackoverflow.com/questions/9885551/how-to-reset-uncheck-radio-button-onclick-event/9885908
+2. https://css-tricks.com/on-object-fit-and-object-position/
+3. https://loopj.com/2008/06/16/removing-gaps-under-images-in-css/
 
 
 
