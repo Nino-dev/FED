@@ -34,9 +34,13 @@
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+M'n code zag er netjes uit. Het enige was dat ik de pagina nog niet volledig gestyled had maar Jesse had er vertrouwen in dat dit sowieso goed zou komen gezien
+mijn kwaliteiten. 
 
 **Screenshot(s):**
+
+Ik ben tot de sectie "Leaderboard" gekomen van de 1e pagina. Verder heb ik het hamburger menu fixed gemaakt met JS als er gescrollt wordt. Daarnaast heb ik ook
+de radionbuttons + input field dynamisch gemaakt in selectie. 
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
 
@@ -52,7 +56,9 @@
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+De meeting was tekstueel in teams. Vooraf heb ik aan iedereen gevraagd om kort op te schrijven wat ze wilde bespreken tijdens de voortgang.
+Deze punten kwamen pas tijdens het voortgangsgesprek naar boven. Ik zelf had verder geen punten die ik wilde bespreken omdat alles verliep
+hoe ik wilde dat het ging. 
 
 
 
