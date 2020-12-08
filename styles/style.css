@@ -371,7 +371,7 @@ form>img {
   padding-top: 0.5em;
 }
 
-.donation>.amount-trees {
+.donation>.amount-trees-sm {
   background: #518360;
   color: #fff;
   width: fit-content;
@@ -395,7 +395,9 @@ main>img:first-of-type {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 6em 0;
+  height: auto;
+  padding: 6em 0 6em 0;
+  overflow-x: hidden;
 }
 
 .projects>h3 {
@@ -408,4 +410,179 @@ main>img:first-of-type {
   color: white;
   text-align: center;
   padding: 0 1em;
+}
+
+.map-container {
+  height: 20.3125em;
+  width: 20.3125em;
+  position: relative;
+  margin-top: 4em;
+}
+
+.map-container>img {
+  position: absolute;
+  width: 2em;
+}
+
+.map-container>.map {
+  background-image: url("../images/world-map.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 625em;
+  position: absolute;
+  z-index: 2;
+}
+
+.radial-gradient {
+  position: absolute;
+  background: radial-gradient(circle closest-side, #b4b9e1, transparent);
+  width: 115%;
+  height: 115%;
+  left: -8%;
+  top: -8%;
+  z-index: 1;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4em;
+}
+.controls>.control {
+  width: 3em;
+  height: 3em;
+  background: white;
+  margin: 0 1em;
+  border-radius: 625em;
+}
+
+.control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls>.control:nth-of-type(1)::after {
+  content: '\2190';
+}
+
+.controls>.control:nth-of-type(2)::after {
+  content: '\2192';
+}
+
+.project {
+  background: white;
+  padding: 1em;
+  margin: 1em 0 0;
+  border-radius: .5em;
+  width: 21.4375em;
+  position: relative;
+}
+
+.amount-trees-lg {
+  background: #6fba0d;
+  color: #fff;
+  width: fit-content;
+  padding: .25em .5em;
+  font-size: 0.875em;
+  border-radius: 625em;
+  margin-top: 0.5em;
+}
+
+.region {
+  font-size: 1.25em;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 3em;
+}
+
+.location-country {
+  font-size: 1.125em;
+  color: #113259;
+}
+
+.badge {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  right: 3.625em;
+
+}
+
+.badge>img {
+  position: absolute;
+  width: 5em;
+}
+
+.badge>p{
+  color: white;
+  font-size: 0.75em;
+  position: absolute;
+  width: 4em;
+  margin-left: 12px;
+  margin-top: 22px;
+}
+
+.project>p:nth-of-type(3) {
+  margin-top: 1em;
+}
+
+.socials {
+  background: #113259;
+  color: white;
+  text-align: center;
+  padding: 8em 0;
+}
+
+.socials>ul {
+  display: flex;
+  justify-content: center;
+}
+
+.socials>ul>li {
+  margin: 0 0.5em;
+  list-style-type: none;
+}
+
+.socials>ul>li>a>img {
+  width: 2.5em;
+}
+
+iframe {
+  width: 100%;
+  height: 20em;
+  margin-top: 2em;
+}
+
+.next-post {
+  width: 2em;
+}
+
+footer {
+  background: #113259;
+  width: 100%;
+  padding-bottom: 1em;
+}
+
+footer>img {
+  width: 100%;
+}
+
+footer>ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+footer>ul>li {
+  list-style-type: none;
+  margin-top: 1em;
+}
+
+footer>ul>li>a {
+  text-decoration: none;
+  color: white;
 }
