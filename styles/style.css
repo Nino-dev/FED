@@ -56,18 +56,34 @@ div[role=banner]{
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 0 1em;
 }
 
-div[role=banner]>img{
+div[role=banner]>div:first-of-type {
+  width: 80%;
   margin-top: 1.5em;
+}
+
+div[role=banner]>div>img{
   width: 8em;
+  height: 2em;
+  margin-left: 6.75em;
 }
 
 /* Hamburger */
-header>div>button {
-  position: absolute;
+
+div[role=banner]>div:nth-of-type(2) {
+  width: 20%;
+  margin-top: 1em;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header>div[role=banner]>div>button {
+  /* position: absolute;
   top: 6.625em;
-  right: 1em;
+  right: 1em; */
   width: 3rem;
   height: 3rem;
   border-radius: 625em;
@@ -79,16 +95,16 @@ header>div>button {
   border: none;
 }
 
-header>div>button>img {
+header>div[role=banner]>div>button>img {
   width: 1rem;
   height: 0.75rem;
 }
 
 /* fix-burger is added by JS onscroll */
-header>div>button.fix-burger {
+header>[role=banner]>div>button.fix-burger {
   position: fixed;
-  top: 1em;
-  right: 1em;
+  top: 1rem;
+  right: 1rem;
   border: 1px solid #e2e8f0
 }
 
