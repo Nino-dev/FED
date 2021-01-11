@@ -11,26 +11,33 @@
 </head>
 <body>
 	<header>
-		<section class="top-section font-bold">
-			<p>Check out our <a href="#" class="font-black">Planting Locations</a> to learn more about the 7.1 million trees we've planted so far!</p>
-		</section>
-		<nav class="logo-nav">
+		<div class="font-bold">
+			<p>Check out our <a href="#">Planting Locations</a> to learn more about the 7.1 million trees we've planted so far!</p>
+		</div>
+		<div role="banner">
 			<img src="images/logo.png" alt="#teamtrees logo">
-			<div class="hamburger">
+			<button type="button" class="hamburger-menu">
 				<img src="images/hamburger.png" alt="Hamburger menu">
+			</button>
+		</div>
+		<nav>
+			<button type="button" class="close-menu"></button>
+			<img src="images/leaf.png" alt="leaf">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Join #teamtrees</a></li>
+				<li><a href="#">Leaderboard</a></li>
+				<li><a href="#">Social</a></li>
+				<li><a href="#">Planting projects</a></li>
+				<li><a href="#">Store</a></li>
+			</ul>
+			<div>
+				<img src="images/video-thumbnail.jpg" alt="Mr. Beast">
+				<img src="images/play-button.png" alt="Play button">
 			</div>
-				<!-- Hidden by default -->
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Join #teamtrees</a></li>
-					<li><a href="#">Leaderboard</a></li>
-					<li><a href="#">Social</a></li>
-					<li><a href="#">Planting projects</a></li>
-					<li><a href="#">Store</a></li>
-				</ul>
 		</nav>
-		<article class="intro">
-			<h1 class="font-black">YEAR TWO!</h1>
+		<article>
+			<h1>YEAR TWO!</h1>
 			<p class="font-medium">One year ago we formed a team, took over the internet and scored a win for the planet. Plant with us and track our progress!</p>
 		</article>
 		<div class="video">
@@ -39,14 +46,14 @@
 			<img src="images/play-button.png" alt="Play button">
 			<img src="images/video-banner-2.png" alt="Label: Year 1 Planting Update">
 		</div>
-		<h2 class="font-black trees-planted">22,411,854</h2>
-		<div class="container">
-			<img src="images/header.png" class="cover" alt="Landscape parallax scroll">
+		<h2>22,411,854</h2>
+		<div>
+			<img src="images/header.png" alt="Landscape parallax scroll">
 		</div>
 	</header>
 	<main>
 		<section class="donate">
-			<h3 class="font-black">Join #teamtrees</h3>
+			<h3>Join #teamtrees</h3>
 			<p class="font-bold">$1 plants a tree</p>
 			<form>
         <input type='radio' name='radio' id="radio1"/>
@@ -63,13 +70,14 @@
 
 				<input type="text" id="inputText" placeholder="Other Amount">
 				<img src="images/twig-divider.png" alt="">
-				<a href="#" class="btn font-black">Next</a>
+				<a href="#" class="btn">Next</a>
 			</form>
 		</section>
 		<section class="leaderboard">
-			<h3 class="font-black">Leaderboard</h3>
+			<h3>Leaderboard</h3>
 			<div class="search-filter font-bold">
-				<a href="search.html"><span>Search</span> <img src="images/search.png" alt="Vergrootglas"></a>
+				<a href="search.html" class="anchor-exception"><span>Search</span> <img src="images/search.png" alt="Vergrootglas"></a>
+				<!-- div hieronder moet form zijn maar tript dan? -->
 				<div class="filter">
 					<input type='radio' name='filter' id="filter1" checked="true"/>
 	        <label for="filter1">Most recent</label>
@@ -78,27 +86,27 @@
 	        <label for="filter2">Most trees</label>
 				</div>
 			</div>
-			<section class="donations">
+			<div class="donations">
 				<article class="donation">
 					<img src="images/icon-badge-acorn-2.svg" alt="Badge">
-					<h4 class="font-black">John Doe</h4>
+					<h4>John Doe</h4>
 					<p>For a better world x</p>
 					<p class="amount-trees-sm">11 trees</p>
 					<time>15-11-2020 14:31:56</time>
 				</article>
 				<article class="donation">
 					<img src="images/icon-badge-acorn-2.svg" alt="Badge">
-					<h4 class="font-black">John Doe</h4>
+					<h4>John Doe</h4>
 					<p>For a better world x</p>
 					<p class="amount-trees-sm">11 trees</p>
 					<time>15-11-2020 14:31:56</time>
 				</article>
-				<a href="#" class="btn lg font-black">Add Your Tree</a>
-			</section>
+				<a href="#" class="btn lg">Add Your Tree</a>
+			</div>
 		</section>
 		<img src="images/blue-curve.png" alt="Divider for styling purposes">
 		<section class="projects">
-			<h3 class="font-black">Planting projects</h3>
+			<h3>Planting projects</h3>
 			<p>Wondering where these trees are being planted? Check out the locations for the first trees below.</p>
 			<div class="map-container">
 				<img src="images/rocket.png" alt="Rocket">
@@ -110,15 +118,15 @@
 				</div>
 			</div>
 			<div class="controls">
-				<div class="control">
-				</div>
-				<div class="control">
-				</div>
+				<button class="control">
+				</button>
+				<button class="control">
+				</button>
 			</div>
 			<section class="north-america">
 				<h3 class="region">North America</h3>
 				<article class="project">
-					<h4 class="font-black location-country">Arkansas, United States</h4>
+					<h4 class="location-country">Arkansas, United States</h4>
 					<p>Cache River Watershed</p>
 					<p class="amount-trees-lg">50,000 TREES</p>
 					<p>In partnership with The Nature Conservancy, the Arbor Day Foundation is working to improve water along the Cache River, an impaired waterway in Arkansas that is contributing to the hypoxic zone in the Gulf of Mexico. The goals of this project are to reduce runoff into the Cache River watershed, increase wetland habitat, and provide incentives for landowners to transition frequently flooded cropland back into forestland.</p>
@@ -130,7 +138,7 @@
 			</section>
 		</section>
 		<section class="socials">
-			<h3 class="font-black">#TEAMTREES SOCIAL</h3>
+			<h3>#TEAMTREES SOCIAL</h3>
 			<ul>
 				<li>
 					<a href="https://reddit.com/r/teamtrees">
@@ -160,17 +168,16 @@
 		<img src="images/footer.png" alt="Footer: landscape/hills">
 		<ul>
 			<li>
-				<a href="#" class="font-black">FAQ</a>
+				<a href="#">FAQ</a>
 			</li>
 			<li>
-				<a href="#" class="font-black">Contact Us</a>
+				<a href="#">Contact Us</a>
 			</li>
 			<li>
-				<a href="#" class="font-black">Press Inquiries</a>
+				<a href="#">Press Inquiries</a>
 			</li>
 		</ul>
 	</footer>
 	<script src="scripts/script.js"></script>
 </body>
-
 </html>
