@@ -9,7 +9,11 @@ let radioButtons = document.getElementsByName('radio');
   }
 });
 
+const parallaxTxt = document.querySelector('.parallax-txt');
+
 window.onscroll = () => {
+  let value = window.scrollY;
+  parallaxTxt.style.top = value * 0.2 + 'px';
   if (document.documentElement.scrollTop > 74) {
     document.querySelector('.hamburger-menu').classList.add('fix-burger');
   } else {
