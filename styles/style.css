@@ -14,6 +14,10 @@
   --font-black: 900;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
@@ -280,6 +284,10 @@ main {
   position: relative;
   background-image: linear-gradient(#fff, #b4dbe1);
 }
+
+/* main>section:first-of-type {
+
+} */
 
 .donate {
   position: absolute;

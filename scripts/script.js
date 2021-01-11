@@ -1,14 +1,29 @@
-const inputText = document.getElementById('inputText');
+//Hamburger menu
+const hamburger = document.querySelector('.hamburger-menu');
 
-inputText.addEventListener('focus', () => {
-let radioButtons = document.getElementsByName('radio');
-  for(let i = 0; i < radioButtons.length; i++) {
-    if(radioButtons[i].checked){
-      radioButtons[i].checked = false;
-    }
+// Toggle menu on
+hamburger.onclick = () => {
+  const nav = document.querySelector('nav');
+  nav.classList.add('show-nav');
+}
+
+// Toggle menu off with close button
+const close = document.querySelector('.close-menu');
+close.onclick = () => {
+  const nav = document.querySelector('nav');
+  nav.classList.remove('show-nav');
+}
+
+// Toggle menu off with anchor tag
+let listItems = document.querySelectorAll('nav ul li a');
+listItems.forEach((item) => {
+  item.onclick = () => {
+    const nav = document.querySelector('nav');
+    nav.classList.remove('show-nav');
   }
-});
+})
 
+// Parallax & fixed hamburger menu
 const parallaxTxt = document.querySelector('.parallax-txt');
 
 window.onscroll = () => {
@@ -21,17 +36,14 @@ window.onscroll = () => {
   }
 }
 
-const hamburger = document.querySelector('.hamburger-menu');
+//Dynamic radiobuttons
+const inputText = document.getElementById('inputText');
 
-// Toggle menu on
-hamburger.onclick = () => {
-  const nav = document.querySelector('nav');
-  nav.classList.add('show-nav');
-}
-
-// Toggle menu off
-const close = document.querySelector('.close-menu');
-close.onclick = () => {
-  const nav = document.querySelector('nav');
-  nav.classList.remove('show-nav');
+inputText.onfocus = () => {
+let radioButtons = document.getElementsByName('radio');
+  radioButtons.forEach((button) => {
+    if(button.checked){
+      button.checked = false;
+    }
+  })
 }
