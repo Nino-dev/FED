@@ -10,10 +10,13 @@
 	<link href="styles/style.css" rel="stylesheet">
 </head>
 <body>
+	<!-- Start: Header -->
 	<header>
-		<div class="font-bold">
-			<p>Check out our <a href="#">Planting Locations</a> to learn more about the 7.1 million trees we've planted so far!</p>
+		<!-- Top Bar -->
+		<div>
+			<p>Check out our <a href="#projects">Planting Locations</a> to learn more about the 7.1 million trees we've planted so far!</p>
 		</div>
+		<!-- Container: Logo & Hamburger menu -->
 		<div role="banner">
 			<div>
 				<img src="images/logo.png" alt="#teamtrees logo">
@@ -40,16 +43,19 @@
 				<img src="images/play-button.png" alt="Play button">
 			</div>
 		</nav>
+		<!-- Intro article -->
 		<article>
 			<h1>YEAR TWO!</h1>
-			<p class="font-medium">One year ago we formed a team, took over the internet and scored a win for the planet. Plant with us and track our progress!</p>
+			<p>One year ago we formed a team, took over the internet and scored a win for the planet. Plant with us and track our progress!</p>
 		</article>
+		<!-- Video -->
 		<div>
 			<img src="images/astronaut.png" alt="Astronaut holding sign: Year two!">
 			<img src="images/video-thumbnail.jpg" alt="Mr. Beast">
 			<img src="images/play-button.png" alt="Play button">
 			<img src="images/video-banner-2.png" alt="Label: Year 1 Planting Update">
 		</div>
+		<!-- Parallax: Text underneath image onscroll -->
 		<section>
 			<h2 class="parallax-txt">22,411,854</h2>
 			<div>
@@ -57,10 +63,13 @@
 			</div>
 		</section>
 	</header>
+	<!-- End: Header -->
+	<!-- Start: Main -->
 	<main>
-		<section class="donate" id="donate">
+		<!-- Start: Donations -->
+		<section id="donate">
 			<h3>Join #teamtrees</h3>
-			<p class="font-bold">$1 plants a tree</p>
+			<p>$1 plants a tree</p>
 			<form>
         <input type='radio' name='radio' id="radio1"/>
         <label for="radio1">5 trees</label>
@@ -75,101 +84,113 @@
         <label for="radio4">100 trees</label>
 
 				<input type="text" id="inputText" placeholder="Other Amount">
-				<img src="images/twig-divider.png" alt="">
-				<a href="#" class="btn">Next</a>
+				<img src="images/twig-divider.png" alt="Divider line">
+				<button type="submit" name="button">Next</button>
 			</form>
 		</section>
-		<section class="leaderboard">
+		<!-- End: Donations -->
+		<!-- Start: Leaderboard -->
+		<section>
 			<h3 id="leaderboard">Leaderboard</h3>
-			<div class="search-filter font-bold">
-				<a href="search.html" class="anchor-exception"><span>Search</span> <img src="images/search.png" alt="Vergrootglas"></a>
-				<!-- div hieronder moet form zijn maar tript dan? -->
-				<div class="filter">
-					<input type='radio' name='filter' id="filter1" checked="true"/>
+			<div>
+				<a href="search.html" class="anchor-exception"><span>Search</span><img src="images/search.png" alt="Magnifying glass"></a>
+				<!-- Filter -->
+				<form>
+					<input type='radio' name='filter' id="filter1" checked="checked"/>
 	        <label for="filter1">Most recent</label>
 
 	        <input type='radio' name='filter' id="filter2"/>
 	        <label for="filter2">Most trees</label>
-				</div>
+				</form>
 			</div>
-			<div class="donations">
-				<article class="donation">
+			<div>
+				<!-- Donation -->
+				<article>
 					<img src="images/icon-badge-acorn-2.svg" alt="Badge">
 					<h4>John Doe</h4>
 					<p>For a better world x</p>
-					<p class="amount-trees-sm">11 trees</p>
-					<time>15-11-2020 14:31:56</time>
+					<p>11 trees</p>
+					<p>15-11-2020 14:31:56</p>
 				</article>
-				<article class="donation">
+				<article>
 					<img src="images/icon-badge-acorn-2.svg" alt="Badge">
 					<h4>John Doe</h4>
 					<p>For a better world x</p>
-					<p class="amount-trees-sm">11 trees</p>
-					<time>15-11-2020 14:31:56</time>
+					<p>11 trees</p>
+					<p>15-11-2020 14:31:56</p>
 				</article>
-				<a href="#" class="btn lg">Add Your Tree</a>
+				<a role="button" href="#donate">Add Your Tree</a>
 			</div>
 		</section>
+		<!-- End: Leaderboard -->
 		<img src="images/blue-curve.png" alt="Divider for styling purposes" id="projects">
-		<section class="projects">
+		<!-- Start: Projects -->
+		<section>
 			<h3>Planting projects</h3>
 			<p>Wondering where these trees are being planted? Check out the locations for the first trees below.</p>
-			<div class="map-container">
+			<!-- Map -->
+			<div>
 				<img src="images/rocket.png" alt="Rocket">
-				<div class="map">
+				<div>
 					<!-- BG image -->
 				</div>
-				<div class="radial-gradient">
+				<div>
 					<!-- Radial gradient for styling purposes -->
 				</div>
 			</div>
-			<div class="controls">
-				<button class="control">
-				</button>
-				<button class="control">
-				</button>
+			<!-- Controls -->
+			<div>
+				<button type="button"></button>
+				<button type="button"></button>
 			</div>
-			<section class="north-america">
-				<h3 class="region">North America</h3>
-				<article class="project">
-					<h4 class="location-country">Arkansas, United States</h4>
+			<!-- Region/projects -->
+			<section>
+				<h3>North America</h3>
+				<!-- Project -->
+				<article>
+					<h4>Arkansas, United States</h4>
 					<p>Cache River Watershed</p>
-					<p class="amount-trees-lg">50,000 TREES</p>
+					<p>50,000 TREES</p>
 					<p>In partnership with The Nature Conservancy, the Arbor Day Foundation is working to improve water along the Cache River, an impaired waterway in Arkansas that is contributing to the hypoxic zone in the Gulf of Mexico. The goals of this project are to reduce runoff into the Cache River watershed, increase wetland habitat, and provide incentives for landowners to transition frequently flooded cropland back into forestland.</p>
-					<div class="badge">
+					<div>
 						<img src="images/badge.png" alt="Badge: displays year of project">
-						<p class="font-black">2021 PROJECT</p>
+						<p>2021 PROJECT</p>
 					</div>
 				</article>
 			</section>
 		</section>
-		<section class="socials" id="social">
+		<!-- End: Projects -->
+		<!-- Start: Socials -->
+		<section id="social">
 			<h3>#TEAMTREES SOCIAL</h3>
 			<ul>
 				<li>
 					<a href="https://reddit.com/r/teamtrees">
-						<img src="images/reddit-icon.png" alt="Reddit Logo">
+						<img src="images/reddit-icon.png" alt="Reddit icon: robot">
 					</a>
 				</li>
 				<li>
 					<a href="https://www.instagram.com/teamtrees/">
-						<img src="images/instagram-icon.png" alt="">
+						<img src="images/instagram-icon.png" alt="Instagram icon: rounded camera">
 					</a>
 				</li>
 				<li>
 					<a href="https://twitter.com/teamtreesofficl">
-						<img src="images/twitter-icon.png" alt="">
+						<img src="images/twitter-icon.png" alt="Twitter icon: bird">
 					</a>
 				</li>
 				<li>
 					<a href="https://www.facebook.com/teamtreesofficial/">
-						<img src="images/facebook-icon.png" alt="">
+						<img src="images/facebook-icon.png" alt="Facebook icon: letter F">
 					</a>
 				</li>
 			</ul>
-			<iframe src="https://cdn.hypemarks.com/t/teamtrees_1?width=992&amp;expand=true&amp;infiniteScroll=true&amp;personalization_id=1047512" scrolling="yes" frameborder="0" allowtransparency="true" title="Social Feed"></iframe>
+			<iframe src="https://cdn.hypemarks.com/t/teamtrees_1?width=992&amp;expand=true&amp;infiniteScroll=true&amp;personalization_id=1047512" title="Social Feed"></iframe>
 		</section>
+		<!-- End: Socials -->
 	</main>
+	<!-- End: Main -->
+	<!-- Start: Footer -->
 	<footer>
 		<img src="images/footer.png" alt="Footer: landscape/hills">
 		<ul>
@@ -177,13 +198,14 @@
 				<a href="#">FAQ</a>
 			</li>
 			<li>
-				<a href="#">Contact Us</a>
+				<a href="mailto:info@teamtrees.org">Contact Us</a>
 			</li>
 			<li>
-				<a href="#">Press Inquiries</a>
+				<a href="mailto:info@teamtrees.org">Press Inquiries</a>
 			</li>
 		</ul>
 	</footer>
+	<!-- End: Footer -->
 	<script src="scripts/script.js"></script>
 </body>
 </html>
