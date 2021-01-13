@@ -22,46 +22,57 @@
 **Screenshot(s):**
 
 **1e pagina: Header**
+
 <img src="images/eind-1.png" width="375px">
 
 Het hamburger menu is uitschuifbaar. Daarnaast is de video in de header clickable en uit zich in een pop-up.
 
-**1e pagina: Hamburger menu **
+**1e pagina: Hamburger menu**
+
 <img src="images/eind-2.png" width="375px">
 
 Binnen het menu is de video ook clickable en uit zich in dezelfde pop-up. Verder zijn alle navigatie links
 gekoppeld met de bijhorende sections en wordt hier dus naar gejumpt als er op een link geklikt wordt. 
 
-**1e pagina: Video pop-up **
+**1e pagina: Video pop-up**
+
 <img src="images/eind-3.png" width="375px">
 
-**1e pagina: Parallax onscroll **
+**1e pagina: Parallax onscroll**
+
 <img src="images/eind-4.png" width="375px">
 
 Als er gescrollt wordt verdwijnt het grote getal achter de afbeelding.
 Dit heb ik gerealiseerd met javascript en de scrollwaarde * 0.2 om het getal smooth te laten verdwijnen.
 
-**1e pagina: Leaderboard **
+**1e pagina: Leaderboard**
+
 <img src="images/eind-5.png" width="375px">
 
-**1e pagina: Map **
+**1e pagina: Map**
+
 <img src="images/eind-6.png" width="375px">
 
-**1e pagina: Project **
+**1e pagina: Project**
+
 <img src="images/eind-7.png" width="375px">
 
-**1e pagina: Socials **
+**1e pagina: Socials**
+
 <img src="images/eind-8.png" width="375px">
 
 Het stukje socials scheelde heel erg omdat de site van #teamtrees voorzien was van een iframe (slider) die ik kon implementeren in mijn eigen website. 
 
-**2e pagina: Header **
+**2e pagina: Header**
+
 <img src="images/eind-9.png" width="375px">
 
-**2e pagina: Producten **
+**2e pagina: Producten**
+
 <img src="images/eind-10.png" width="375px">
 
-**2e pagina: Over ons **
+**2e pagina: Over ons**
+
 <img src="images/eind-11.png" width="375px">
 
 De 2e pagina is nog niet volledig af wegens tijdsgebrek door ziekte in de vakantie. 
