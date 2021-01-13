@@ -18,11 +18,14 @@
 /* Defaults */
 html {
   scroll-behavior: smooth;
+  height: -webkit-fill-available;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
 }
 
 input, button {
