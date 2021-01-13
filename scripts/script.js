@@ -23,6 +23,23 @@ listItems.forEach((item) => {
   }
 })
 
+// Pop-up video
+let videos = document.querySelectorAll('.videos');
+const popUp = document.querySelector('.pop-up');
+
+videos.forEach((video) => {
+  video.onclick = () => {
+    popUp.classList.add('show');
+  }
+})
+
+// Hide pop-up video
+const closeVideo = document.querySelector('.close-popup');
+
+closeVideo.onclick = () => {
+  popUp.classList.remove('show');
+}
+
 // Parallax & fixed hamburger menu
 const parallaxTxt = document.querySelector('.parallax-txt');
 
