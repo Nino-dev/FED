@@ -77,6 +77,11 @@ Het stukje socials scheelde heel erg omdat de site van #teamtrees voorzien was v
 
 De 2e pagina is nog niet volledig af wegens tijdsgebrek door ziekte in de vakantie. 
 
+## Verslag Screenreader (week 7)
+
+Na aanleiding van de opdracht om met een screenreader door m’n code heen te gaan schrijf ik dit verslag. Met Voice Over op mijn MacBook ben ik door mijn pagina heen gegaan. De voice over verteld in Chrome bij elk interactief element wat voor element het is. Op Safari werkt de screenreader beter omdat hij dan ook alle headings voorleest. 
+De screenreader is ingesteld in het Nederlands. Ondanks dat ik mijn lang attribute verander naar “en” spreekt hij de woorden met een Nederlands accent uit.
+
 ## Voortgang 3 (week 6)
 
 ### Stand van zaken
