@@ -21,9 +21,50 @@
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+**1e pagina: Header**
+<img src="images/eind-1.png" width="375px">
 
+Het hamburger menu is uitschuifbaar. Daarnaast is de video in de header clickable en uit zich in een pop-up.
 
+**1e pagina: Hamburger menu **
+<img src="images/eind-2.png" width="375px">
+
+Binnen het menu is de video ook clickable en uit zich in dezelfde pop-up. Verder zijn alle navigatie links
+gekoppeld met de bijhorende sections en wordt hier dus naar gejumpt als er op een link geklikt wordt. 
+
+**1e pagina: Video pop-up **
+<img src="images/eind-3.png" width="375px">
+
+**1e pagina: Parallax onscroll **
+<img src="images/eind-4.png" width="375px">
+
+Als er gescrollt wordt verdwijnt het grote getal achter de afbeelding.
+Dit heb ik gerealiseerd met javascript en de scrollwaarde * 0.2 om het getal smooth te laten verdwijnen.
+
+**1e pagina: Leaderboard **
+<img src="images/eind-5.png" width="375px">
+
+**1e pagina: Map **
+<img src="images/eind-6.png" width="375px">
+
+**1e pagina: Project **
+<img src="images/eind-7.png" width="375px">
+
+**1e pagina: Socials **
+<img src="images/eind-8.png" width="375px">
+
+Het stukje socials scheelde heel erg omdat de site van #teamtrees voorzien was van een iframe (slider) die ik kon implementeren in mijn eigen website. 
+
+**2e pagina: Header **
+<img src="images/eind-9.png" width="375px">
+
+**2e pagina: Producten **
+<img src="images/eind-10.png" width="375px">
+
+**2e pagina: Over ons **
+<img src="images/eind-11.png" width="375px">
+
+De 2e pagina is nog niet volledig af wegens tijdsgebrek door ziekte in de vakantie. 
 
 ## Voortgang 3 (week 6)
 
@@ -54,15 +95,19 @@ Daarnaast moest ik ook kijken of ik mijn classes kon reduceren met nth-of-type.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+Projects sectie gestyled.
+
+<img src="images/voortgang2-1.png" width="375px">
+
+<img src="images/voortgang2-2.png" width="375px">
+
+Socials + footer gestyled.
+
+<img src="images/voortgang2-3.png" width="375px">
 
 ### Verslag van meeting
 
-De meeting was duidelijk en denk ik ook hulpvol voor mijn medestudenten. Op het moment zelf 
-had ik nog geen vragen en alles verliep zoals het moest. Voorafgaande van de meeting had ik gevraagd
-aan mijn medestudenten om voor zichzelf op te schrijven wat er besproken moest worden. Dit is
-verder niet door iedereen in de groep gedeeld maar wel besproken tijdens de meeting.
-
+Dankzij deze meeting ben ik gewezen op bepaalde dingen die ik over het hoofd had gezien m.b.t. mijn elementen. Het is altijd fijn om een 2e paar ogen naar je code te laten kijken.
 
 
 ## Voortgang 1 (week 3)
@@ -74,11 +119,13 @@ Volgens Jesse was ik op de goede weg. Ik had nog niet 2 pagina's uitgewerkt, maa
 **Screenshot(s):**
 
 <img src="images/voortgang1-1.png" width="375px">
+
 De header van de website heb ik een background image gegeven (sterren) en een linear gradient.
 Daarnaast heb ik de video samengesteld met allemaal losse images die een position absolute hebben.
 
 <img src="images/voortgang1-2.png" width="375px">
-De radiobuttons heb ik dynamisch gemaakt met JS in de vorm van de switch in kleur, ook als er op de input text wordt geklikt. 
+
+Ik ben tot de sectie "Leaderboard" gekomen van de 1e pagina. Verder heb ik het hamburger menu fixed gemaakt met JS als er gescrollt wordt. Daarnaast heb ik ook de radionbuttons + input field dynamisch gemaakt in selectie.
 
 <img src="images/voortgang1-3.png" width="375px">
 
@@ -107,7 +154,6 @@ verder niet door iedereen in de groep gedeeld maar wel besproken tijdens de meet
 
 ## Breakdownschets (week 1)
 
--uitwerken voor de 1e werkgroep - eind van de eerste week-
 <img src="images/breakdown.png" width="375px" alt="Home (one pager)">
 
 
